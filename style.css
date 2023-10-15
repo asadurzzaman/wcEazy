@@ -1,0 +1,395 @@
+/*!
+Theme Name: wcFusion
+Theme URI: https://wceazy.com/
+Author: Asad
+Author URI: https:/asaduzzaman.me/
+Description: This is on of the most popular woocommerce customizer  plugin.
+Version: 1.0.1
+Tested up to: 5.6
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wc-fusion
+Tags: corporate, business, agency, responsive, elementor, creative, redux, theme-options, custom-widget, custom-background, easy-customize, bootstrap4, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+/* =WordPress Core
+-------------------------------------------------------------- */
+section.wfn-special-offer .wfn-banner-top h1:after {
+    position: inherit;
+    background: inherit;
+}
+section.wfn-special-offer.wfn-banner-area{
+    background: inherit;
+}
+.wfn-special-offer-modules .single-module {
+    border: inherit;
+    border-radius: 5px;
+    background: #1C2429;
+    margin-top: 20px;
+    padding: 50px 30px;
+    height: 330px;
+}
+.wfn-special-offer-modules .module-small-thum2 img {
+    margin-top: -2px;
+    margin-left: -1px;
+    width: auto;
+}
+.wfn-special-offer-modules .module-text h4 {
+    font-size: 22px;
+    color: #ffffff;
+    text-align: left;
+    padding: 25px 0;
+    margin: 0;
+}
+.wfn-special-offer-modules .module-text p {
+    color: #ffffff;
+    text-align: left;
+    padding: 0;
+    font-size: 16px;
+}
+.basic.pricing-table-header h3 {
+    color: #6B30C4;
+}
+.professional.pricing-table-header h3 {
+    color: #DC3F8F;
+}
+.business.pricing-table-header h3 {
+    color: #57B1F2;
+}
+.enterprise.pricing-table-header h3 {
+    color: #A2B002;
+}
+section.wfn-special-offer.wfn-banner-area {
+    background-position: center center;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background: #121415;
+    position: inherit;
+    padding: 70px 0px;
+}
+p.offer-sub-heading {
+    color: #fff;
+    margin-top: 25px;
+    font-size: 20px;
+}
+p.offer-header-prag{
+    color: #fff;
+    font-size: 18px;
+}
+section.wfn-special-offer .wfn-banner-top h1 {
+    /*font-size: 60px;*/
+    /*line-height: 80px;*/
+    text-align: center;
+    color: #ffffff;
+    /*margin-top: 26px;*/
+}
+section.wfn-special-offer-modules .banner-btn-custom,
+section.wfn-special-offer .banner-btn-custom {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #6E32C9;
+    border-radius: 5px;
+    padding: 15px 30px 16px 31px;
+    border: 1px solid #6E32C9;
+    box-sizing: border-box;
+}
+section.wfn-special-offer-modules .banner-btn-custom:hover,
+section.wfn-special-offer .banner-btn-custom:hover{
+    color: #ffffff;
+    background: inherit;
+    border: 1px solid #fff;
+}
+section.wfn-special-offer .banner-btn-custom.btn-border:hover{
+    color: #FFFFFF;
+    background: #6E32C9;
+    border-radius: 5px;
+    border: 1px solid #6E32C9;
+}
+section.wfn-special-offer .banner-btn-custom.btn-border {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    background: inherit;
+    border-radius: 5px;
+    padding: 15px 30px 16px 31px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+.wfn-special-offer-modules .text-left h3 {
+    font-size: 46px;
+}
+.wfn-special-offer-modules .text-right p {
+    font-size: 20px;
+    text-align: right;
+    margin: 0px !important;
+    padding: 30px 0px;
+}
+section.offer-guarantee-area{
+    background: #121415;
+}
+section.offer-improove-area,
+section.offer-testimonial-area,
+section.offer-price-area,
+section.wfn-special-offer-modules,
+.wfn-special-offer-why{
+    background: #121415;
+    padding: 100px 0px;
+}
+section.wfn-special-offer-why .easy-to-setup-right h3 {
+    font-size: 46px;
+    line-height: 55px;
+    color: #fff;
+    margin-top: 0px;
+    padding-right: 65px;
+}
+section.wfn-special-offer-why .easy-to-setup-right {
+    padding-left: 0px;
+}
+section.wfn-special-offer-why .easy-to-setup-left {
+    padding-right: 0px;
+}
+.easy-to-setup-right p {
+    font-size: 20px;
+    line-height: 32px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.offer-woofusion-pricing-area h2{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+.offer-woofusion-pricing-area .pricing-table-header h3,
+.offer-woofusion-pricing-area .pricing-table-header p,
+.offer-woofusion-pricing-area .pricing-table-price {
+    text-align: left;
+}
+.basic .pricing-table-header h3 {
+    font-size: 20px;
+    color: #6B30C4;
+}
+.basic .pricing-table-price span {
+    font-size: 56px;
+    color: #6B30C4;
+}
+.basic .pricing-table-btn a{
+    color: #FFFFFF;
+    background: #6B30C4;
+    box-shadow: 0px 10px 20px rgb(107 48 196 / 30%);
+}
+.basic .pricing-table-btn a:hover{
+    color:#6B30C4;
+}
+.pricing-table-item.border-bottom-1.basic {
+    border-bottom: 4px solid #6B30C4;
+}
+.professional .pricing-table-header h3 {
+    font-size: 20px;
+    color: #DC3F8F;
+}
+.professional .pricing-table-price span {
+    font-size: 56px;
+    color: #DC3F8F;
+}
+.professional .pricing-table-btn a{
+    color: #FFFFFF;
+    background: #DC3F8F;
+    box-shadow: 0px 10px 20px rgb(220 63 143 / 30%);
+}
+.professional .pricing-table-btn a:hover{
+    color:#DC3F8F;
+}
+.pricing-table-item.border-bottom-1.professional {
+    border-bottom: 4px solid #DC3F8F;
+}
+.business .pricing-table-header h3 {
+    font-size: 20px;
+    color: #57B1F2;
+}
+.business .pricing-table-price span {
+    font-size: 56px;
+    color: #57B1F2;
+}
+.business .pricing-table-btn a{
+    color: #FFFFFF;
+    background: #57B1F2;
+    box-shadow: 0px 10px 20px rgb(87 177 242 / 30%);
+}
+.business .pricing-table-btn a:hover{
+    color:#57B1F2;
+}
+.pricing-table-item.border-bottom-1.business {
+    border-bottom: 4px solid #57B1F2;
+}
+.enterprise .pricing-table-header h3 {
+    font-size: 20px;
+    color: #A2B002;
+}
+.enterprise .pricing-table-price span {
+    font-size: 56px;
+    color: #A2B002;
+}
+.enterprise .pricing-table-btn a{
+    color: #FFFFFF;
+    background: #A2B002;
+    box-shadow: 0px 10px 20px rgb(162 176 2 / 30%);
+}
+.enterprise .pricing-table-btn a:hover{
+    color:#A2B002;
+}
+.pricing-table-item.border-bottom-1.enterprise {
+    border-bottom: 4px solid #A2B002;
+}
+.offer-guarantee-area .guarantee-content h2{
+    color: #fff;
+    font-size: 40px;
+}
+.offer-guarantee-area .guarantee-content p{
+    color: #fff;
+    font-size: 18px;
+}
+.offer-guarantee-area .guarantee-thumb {
+    text-align: left;
+}
+section.offer-improove-area .supercharge {
+    position: inherit;
+}
+section.offer-improove-area {
+    background-position: center center;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+}
+section.wfn-special-offer-why {
+    background-position: top right;
+    background-size: auto !important;
+    background-repeat: no-repeat;
+}
+.pricing-table-price span.old-price {
+    color: #ccc;
+    font-size: 38px;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+@media (max-width: 575.98px) {
+    /*section.wfn-special-offer .wfn-banner-top h1 {*/
+    /*    font-size: 40px;*/
+    /*    line-height: 60px;*/
+    /*}*/
+    section.wfn-special-offer-modules .banner-btn-custom,
+    section.wfn-special-offer .banner-btn-custom {
+        width: 100%;
+    }
+    section.wfn-special-offer .banner-btn-custom.btn-border {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .wfn-special-offer-modules .text-right p {
+        text-align: left;
+    }
+    .mobile-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .offer-woofusion-pricing-area h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    section.offer-price-area .pricing-table-features ul li {
+        text-align: left;
+        justify-content: flex-start;
+    }
+    .offer-guarantee-area .guarantee-thumb {
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .wfn-special-offer-modules .text-right p {
+        text-align: left;
+    }
+    .mobile-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .offer-woofusion-pricing-area h2 {
+        font-size: 52px;
+    }
+    section.offer-price-area .pricing-table-features ul li {
+        text-align: left;
+        justify-content: flex-start;
+    }
+    .offer-guarantee-area .guarantee-thumb {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1299.98px) {
+    .pricing-table-price span.old-price {
+        color: #ccc;
+        font-size: 25px;
+        text-decoration: line-through;
+        margin-left: 0px;
+    }
+}
+
+
+/*for to bare style*/
+
+#hide{
+    position: absolute;
+    top: 18px;
+    left: auto;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 100%;
+    cursor: pointer;
+    color: #d00;
+    padding: 2px;
+}
+.top-bar-left p {
+    margin: 0px;
+    font-size: 30px;
+    color: #fff;
+    padding: 8px 0px;
+}
+.top-bar-right a {
+    background: #fff;
+    padding: 10px;
+    color: #222;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all .3s;
+}
+.top-bar-right {
+    padding: 15px 0px;
+}
+.top-bar-right a:hover {
+    scale: revert;
+    background: #6e32c9;
+    color: #fff;
+}
+@media (max-width: 576px) {
+    .discount-image img {
+        max-width: 100%;
+        padding: 8px 0px;
+    }
+    .top-bar-right {
+        text-align: left !important;
+    }
+    #hide {
+        right: 10px;
+    }
+}
